@@ -1,0 +1,46 @@
+.mobileApp_unAcceptableSection {
+  background-color: #f5f7fa;
+  padding: 50px 0;
+  margin-top: 35%;
+}
+.unAcceptableSection {
+  width: 1170px;
+  margin: 60px auto !important;
+}
+
+.unAcceptableSection h1 {
+  font-family: "RalewayBold";
+  font-size: 30px;
+  margin: 0 0 20px;
+}
+.unAcceptableSection .point {
+  display: flex;
+  align-items: baseline;
+}
+.unAcceptableSection .point p {
+  line-height: 25px;
+  font-family: "RalewayBold";
+  margin: 0;
+  font-size: 16px;
+}
+.unAcceptableSection .point .counter {
+  color: #86c341;
+  line-height: 25px;
+  font-family: "RalewayBold";
+  font-size: 16px;
+}
+.unAcceptableSection .point .listContent {
+  padding-left: 10px;
+  font-family: "RalewayMedium";
+}
+.unAcceptable_heading {
+  margin-top: 30px !important;
+}
+.unAcceptableSection p {
+  font-family: "RalewayMedium";
+  font-size: 16px;
+}
+.unAcceptableSection_buttonContainer {
+  display: flex;
+  flex-direction: row;
+}

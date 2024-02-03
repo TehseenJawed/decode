@@ -1,0 +1,61 @@
+/* .appsAndSolutions {
+  width: 1170px;
+  margin: 60px auto;
+} */
+.mainSection {
+  width: 1170px;
+  margin: 60px auto !important;
+}
+.appsAndSolutions h1 {
+  font-family: "RalewayBold";
+  font-size: 40px;
+  margin: 0 0 20px;
+}
+.appsAndSolutions p {
+  line-height: 24px;
+  font-family: "RalewayMedium";
+  font-size: 16px;
+  margin: 0 0 30px;
+}
+.appsAndSolutions h2 {
+  font-family: "RalewayMedium";
+  font-size: 30px;
+  color: #434da2;
+  margin: 0 0 25px;
+}
+.appsAndSolutions ul {
+  list-style: none;
+  padding: 0;
+}
+.appsAndSolutions ul li {
+  display: flex;
+  align-items: baseline;
+  margin: 0 0 10px;
+}
+.appsAndSolutions ul li p {
+  padding-left: 10px;
+  font-family: "RalewayBold";
+  font-size: 16px;
+  margin: 0;
+}
+.appsAndSolutions{
+  margin:10% 0%;
+}
+.appsAndSolutions .rightImageContainer {
+  padding-right: 0px;
+}
+
+.appsAndSolutions .rightImageContainer .appsAndSolutions_imageContainer {
+  width: 100%;
+  height: 100%;
+  margin: 25px 0 0 100px;
+}
+.appsAndSolutions
+  .rightImageContainer
+  .appsAndSolutions_imageContainer
+  .appsAndSolutions_image {
+  object-fit: contain;
+  display: inline-block;
+  width: 85%;
+  height: 90%;
+}

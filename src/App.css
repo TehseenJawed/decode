@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap");
+@font-face {
+  font-family: myFirstFont;
+  src: url(./assets/fonts/Organocoloredversionatlogomagazincomorgano-font.woff);
+}
+
+@font-face {
+  font-family: RalewayBlack;
+  src: url(./assets/fonts/Raleway-Black.ttf);
+}
+@font-face {
+  font-family: RalewayBlackItalic;
+  src: url(./assets/fonts/Raleway-BlackItalic.ttf);
+}
+@font-face {
+  font-family: RalewayBold;
+  src: url(./assets/fonts/Raleway-Bold.ttf);
+}
+@font-face {
+  font-family: RalewayBoldItalic;
+  src: url(./assets/fonts/Raleway-BoldItalic.ttf);
+}
+@font-face {
+  font-family: RalewayExtraBold;
+  src: url(./assets/fonts/Raleway-ExtraBold.ttf);
+}
+@font-face {
+  font-family: RalewayExtraBoldItalic;
+  src: url(./assets/fonts/Raleway-ExtraBoldItalic.ttf);
+}
+@font-face {
+  font-family: RalewayLight;
+  src: url(./assets/fonts/Raleway-ExtraLight.ttf);
+}
+@font-face {
+  font-family: RalewayLightItalic;
+  src: url(./assets/fonts/Raleway-ExtraLightItalic.ttf);
+}
+@font-face {
+  font-family: RalewayItalic;
+  src: url(./assets/fonts/Raleway-Italic.ttf);
+}
+@font-face {
+  font-family: RalewayLight;
+  src: url(./assets/fonts/Raleway-Light.ttf);
+}
+@font-face {
+  font-family: RalewayLightItalic;
+  src: url(./assets/fonts/Raleway-LightItalic.ttf);
+}
+@font-face {
+  font-family: RalewayMedium;
+  src: url(./assets/fonts/Raleway-Medium.ttf);
+}
+@font-face {
+  font-family: RalewayMediumItalic;
+  src: url(./assets/fonts/Raleway-MediumItalic.ttf);
+}
+@font-face {
+  font-family: RalewayRegular;
+  src: url(./assets/fonts/Raleway-Regular.ttf);
+}
+@font-face {
+  font-family: RalewaySemiBold;
+  src: url(./assets/fonts/Raleway-SemiBold.ttf);
+}
+@font-face {
+  font-family: RalewaySemiBoldItalic;
+  src: url(./assets/fonts/Raleway-SemiBoldItalic.ttf);
+}
+@font-face {
+  font-family: RalewayThin;
+  src: url(./assets/fonts/Raleway-Thin.ttf);
+}
+@font-face {
+  font-family: RalewayThinItalic;
+  src: url(./assets/fonts/Raleway-ThinItalic.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none !important;
+}
+:root {
+  --paragraph: rgb(113, 113, 113);
+  --all-border: rgb(213, 213, 213);
+  --technologyicons-parallelline: rgb(242, 241, 242);
+  --tag-bg: rgb(205, 205, 205);
+}
+section.fget .container {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  max-width: 1170px !important;
+}
+/*Under construction css*/
+.uc-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  background: #fbfcff;
+  padding: 85px 0;
+}
+
+/*Under construction css*/
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 250ms ease-in;
+}
+@media all and (max-width: 767px) and (min-width: 300px){
+  .uc-container img {
+    width: 100%;
+  }
+}

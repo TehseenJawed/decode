@@ -1,0 +1,272 @@
+.industryLeaders {
+  width: 1170px;
+  margin: 60px auto;
+}
+.allImage{
+  width: 150px;
+}
+.industryLeaders h1 {
+  font-family: "RalewayBold";
+  font-size: 46px;
+  margin: 0 0 40px;
+}
+.industryLeaders p {
+  line-height: 24px;
+  font-family: "RalewayRegular";
+  font-size: 16px;
+  margin: 0% 0%;
+}
+.industryLeaders_imageContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 60px 0 80px;
+}
+.industryLeaders_mobileFeaturesContainer {
+  margin: 25px 0 0;
+}
+.mobileFeaturesContainer_contentContainer {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: baseline;
+}
+.mobileFeaturesContainer_contentContainer p {
+  padding-left: 10px;
+  /* font-family: "RalewayBold"; */
+  font-size: 16px;
+}
+.contentWrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 30% !important;
+}
+.contentWrapper h4 {
+  font-size: 30px;
+  font-family: "RalewayRegular";
+  margin: 38px 0 0;
+}
+.imageContainer {
+  min-height: 233px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arrowImage {
+  margin-bottom: 65px;
+}
+.databaseTitle {
+  margin-top: 70px;
+}
+.categoriesContainer {
+  margin: 50px 0 12px;
+}
+.categoriesContainer_button {
+  text-align: center;
+}
+.arrowImage:last-of-type {
+  display: none;
+}
+
+
+@media all and (max-width: 1023px) and (min-width: 320px){
+  .industryLeaders {
+    width: 320px !important;
+    /* padding: 0 20px; */
+    box-sizing: border-box;
+}
+.contentWrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 50% !important;
+}
+
+.unAcceptableSection {
+    width: 320px !important;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin: 10px auto !important;
+}
+
+.mainSection {
+    width: 320px !important;
+    flex-direction: column-reverse !important;
+    display: flex;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.unAcceptableSection_buttonContainer {
+    flex-direction: column;
+}
+
+.industryLeaders h1 {
+    font-size: 20px !important;
+}
+.industryLeaders p {
+  font-size: 14px !important;
+}
+.unAcceptableSection h1 {
+    font-size: 20px !important;
+    line-height: 30px;
+}
+.categoryCard p {
+  margin-bottom: 5px !important;
+}
+.unAcceptableSection .point p {
+    font-size: 14px !important;
+}
+
+.landinpage .view span {
+    font-size: 13px !important;
+}
+
+.unAcceptableSection p {
+    font-size: 14px !important;
+}
+
+.landinpage a.view {
+    padding: 10px 8px !important;
+    height: initial !important;
+    width: 100% !important;
+    margin-bottom: 15px !important;
+    margin-left: 0 !important;
+    text-align: center;
+}
+
+.appsAndSolutions h1 {
+    font-size: 25px !important;
+}
+.mobileApp_unAcceptableSection {
+  padding: 10px 0 !important;
+}
+.appsAndSolutions p {
+    font-size: 14px;
+}
+
+.appsAndSolutions h2 {
+    font-size: 22px !important;
+}
+
+.appsAndSolutions ul li p {
+    font-size: 15px !important;
+}
+
+.appsAndSolutions .rightImageContainer {
+    margin-bottom: 25px;
+}
+.arrowImage {
+  transform: rotate(90deg) ;
+}
+.appsAndSolutions .rightImageContainer .appsAndSolutions_imageContainer {
+  margin: 0 !important;
+  display: flex;
+  justify-content: center;
+}
+}
+@media all and (max-width: 1023px) and (min-width: 768px){
+  .industryLeaders {width: 700px;}
+
+.unAcceptableSection {
+    width: 700px !important;
+    margin: 0 auto !important;
+}
+
+.mainSection {
+    width: 700px !important;
+    flex-direction: column-reverse !important;
+}
+
+.industryLeaders h1 {
+    font-size: 30px !important;
+}
+
+.industryLeaders p {
+    font-size: 14px !important;
+    line-height: 21px !important;
+}
+
+.industryLeaders .categoryCard p {
+    margin-bottom: 20px !important;
+}
+
+.unAcceptableSection h1 {
+    font-size: 26px !important;
+}
+
+.unAcceptableSection .point p {
+    font-size: 15px !important;
+    line-height: 30px !important;
+}
+
+.unAcceptableSection p {
+    font-size: 14px !important;
+}
+
+.appsAndSolutions h1 {
+    font-size: 30px !important;
+}
+
+.appsAndSolutions p {
+    font-size: 14px !important;
+    line-height: 21px;
+}
+
+.appsAndSolutions h2 {
+    font-size: 24px;
+}
+
+.appsAndSolutions .rightImageContainer {
+    padding-left: 0;
+}
+
+.appsAndSolutions .rightImageContainer .appsAndSolutions_imageContainer {
+    max-width: 70%;
+    margin: 0 auto 40px !important;
+}
+.view {
+  padding: 15px 25px !important;
+  text-align: center;
+  height: initial !important;
+  width: initial !important;
+  margin: 15px 0 !important;
+}
+
+.view:first-of-type {
+  margin-right: 20px !important;
+}
+ .imageContainer img {
+  max-width: 75%;
+}
+
+ .contentWrapper h4 {
+  font-size: 24px;
+  margin-top: 0 !important;
+}
+
+ .imageContainer {
+  min-height: 210px;
+}
+
+ .industryLeaders_imageContainer {
+  margin: 0px 0  40px!important;
+}
+
+/* .landinpage .categoryCard h3 {font-size: 16px !important;} */
+ .categoriesContainer .catcontainer {
+  flex: 33.33% !important;
+  max-width: 50%;
+}
+
+.categoriesContainer_button {
+  display: flex;
+  justify-content: center;
+}
+.mobileApp .appsAndSolutions .rightImageContainer .appsAndSolutions_imageContainer {
+  max-width: 45%;
+}
+}
+@media all and (max-width: 1365px) and (min-width: 1024px){
+}

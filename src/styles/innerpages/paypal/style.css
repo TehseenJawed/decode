@@ -1,0 +1,325 @@
+.paymentHeader{
+    width: 100%;
+    padding: 2% 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url("../../../assets/images/firstsliderbg.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+#checkout-button {
+    width: 100%;
+    border: none;
+    padding: 2%;
+    margin-top: 5%;
+    transition: 0.3s
+  }
+.setPayment{
+    font-weight: 700;
+    font-size: 70px;
+    padding: 5%;
+    color: rgb(79, 146, 233);
+    margin-top: -30px;
+    margin-right: -10px;
+    border-bottom: 1px solid black;
+}
+
+.setCurrency{
+    font-size: 35px;
+    color: rgb(79, 146, 233);
+    font-weight: 600;
+    border-bottom: 1px solid black;
+}
+.successMessage{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: 10000;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.199);
+    width: 100%;
+    height: 100%;
+}
+.message{
+    margin-top: 5%;
+    color: green;
+    width: 100%;
+    text-align: center;
+}
+.newpackages{
+    color: #2f2fe7;
+    margin:5% 0%
+}
+.successBox{
+    background-color: white;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.inputFields{
+    width: 80%;
+    border: 1px solid gray;
+    padding: 2%;
+    border-radius: 5px;
+    margin: 5% 0%;
+}
+.tab1{
+    background-color: #e4e4e4;
+    width: 40%;
+    padding: 5%;
+    font-size: 12px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 600;
+    margin: 1%;
+}
+.tabActive{
+    color: white;
+    background-color: #0059ff !important;
+}
+.nextButton{
+    width: 50%;
+    padding: 4%;
+    border: none;
+    background-color: #0059ff;
+    color: white;
+    border-radius: 10px;
+    margin-top: 5%;
+}
+.paymentSkull{
+    padding: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.paymentPage{
+    position: relative;
+    background-color: white;
+    width: 40%;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    padding: 5%;
+    border-radius: 35px;
+}
+.Logo{
+    width:60%;
+    padding: 5%;
+    border-radius: 15px;
+    background-color: black;
+}
+.LogoBody{
+    text-align: center;
+    margin-top: 15%;
+}
+.payDesc{
+    width: 90%;
+    margin-left: 10px;
+}
+.payDesc b{
+    width: 20%;
+    text-align: center;
+  }
+  .payDesc p{
+    width: 80%;
+    text-align: left;
+    margin-left: 5%;
+    font-size: 17px;
+    letter-spacing: 1px;
+  }
+  .setAbsolute{
+    position: relative; 
+    top:0px; 
+    z-index:-1;
+    left: 0px;
+    background-color:red;
+    width:50%; 
+    height:50%
+  }
+  @media (max-width: 1370px) and (min-width: 200px){
+    
+.setPayment{
+    font-weight: 700;
+    font-size: 60px;
+    padding: 5%;
+    color: rgb(79, 146, 233);
+    margin-top: -30px;
+    margin-right: -10px;
+}
+.setCurrency{
+    font-size: 25px;
+    color: rgb(79, 146, 233);
+    font-weight: 600;
+}
+    .paymentPage{
+        display: flex;
+        flex-direction: column;
+        align-items:'center';
+        position: relative;
+        background-color: white;
+        width: 50%;
+        box-shadow: 0px 0px 20px rgb(255, 255, 255);
+        padding: 5%;
+        border-radius: 25px;
+        
+    }
+    .Logo{
+        width:50%;
+        padding: 5%;
+        border-radius: 15px;
+        background-color: black;
+    }
+    .payDesc p{
+        width: 80%;
+        text-align: left;
+        margin-left: 5%;
+        font-size: 15px;
+        letter-spacing: 1px;
+        text-align: left;
+      }
+      .payDesc b{
+        width: 20%;
+        text-align: center;
+      }
+}
+@media only screen and (max-width: 1024px) {
+    .setPayment{
+        font-weight: 700;
+        font-size: 50px;
+        padding: 5%;
+        color: rgb(79, 146, 233);
+        margin-top: -30px;
+        margin-right: -10px;
+    }
+    .payDesc b{
+        width: 20%;
+        text-align: center;
+        font-size: 15px;
+    }
+    .payDesc p{
+        width: 80%;
+        text-align: left;
+        margin-left: 5%;
+        font-size: 17px;
+        letter-spacing: 1px;
+        font-size: 13px;
+      }
+    .setCurrency{
+        font-size: 25px;
+        color: rgb(79, 146, 233);
+        font-weight: 600;
+    }
+    #checkout-button {
+        width: 100%;
+        border: none;
+        padding: 2%;
+        margin-top: 5%;
+        transition: 0.3s
+      }
+      .paymentPage{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: white;
+        width: 70%;
+        box-shadow: 0px 0px 20px rgb(255, 255, 255);
+        padding: 5%;
+        margin-top: 5%;
+        margin-bottom: 25%;
+        border-radius: 25px;
+    }
+}
+@media only screen and (max-width: 525px) {
+    .setPayment{
+        font-weight: 700;
+        font-size: 30px;
+        padding: 5%;
+        color: rgb(79, 146, 233);
+        margin-top: -30px;
+        margin-right: -10px;
+    }
+    .tab1{
+        background-color: #e4e4e4;
+        width: 100%;
+        padding: 5%;
+        font-size: 12px;
+        display: inline-block;
+        text-align: center;
+        border-radius: 5px;
+        font-weight: 600;
+        margin: 1%;
+    }
+    
+.nextButton{
+    width: 100%;
+    padding: 4%;
+    border: none;
+    background-color: #0059ff;
+    color: white;
+    border-radius: 10px;
+    margin-top: 5%;
+    text-align:'center';
+}
+.inputFields{
+    width: 100%;
+    border: 1px solid gray;
+    padding: 2%;
+    border-radius: 5px;
+    margin: 5% 0%;
+}
+    .setCurrency{
+        font-size: 20px;
+        color: rgb(79, 146, 233);
+        font-weight: 600;
+        margin-left: 5px;
+        margin-top: -15px;
+    }
+    #checkout-button {
+        width: 100%;
+        border: none;
+        padding: 2%;
+        margin-top: 5%;
+        transition: 0.3s
+      }
+      .paymentPage{
+        position: relative;
+        background-color: white;
+        width: 100%;
+        box-shadow: 0px 0px 20px rgb(255, 255, 255);
+        padding: 4%;
+        padding-bottom: 10%;
+        margin-top: 30%;
+        border-radius: 15px;
+    }
+    .paymentSkull{
+        padding: 10%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin-top: 10%;
+    }
+    .payDesc b{
+        width: 20%;
+        text-align: center;
+        font-size: 13px;
+    }
+    .payDesc p{
+        width: 80%;
+        text-align: left;
+        margin-left: 5%;
+        font-size: 17px;
+        letter-spacing: 1px;
+        font-size: 10px;
+      }
+}
